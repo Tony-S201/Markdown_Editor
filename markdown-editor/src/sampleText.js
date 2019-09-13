@@ -1,0 +1,1 @@
+export const sampleText = '# Titre\n## Sous-Titre \n### Titre plus profond\n \nAttributs : *italique*, **gras**, \n`monospace`, ~~rayé~~.\n\n 1. Table \n 2. Bureau \n 3. Bibliothèque \n\n *[Tony Swierz](https://www.tonyswierz.com/)* \n\n Lien : https://www.tonyswierz.com/ \n\n```\n console.log("hello"); \n``` '

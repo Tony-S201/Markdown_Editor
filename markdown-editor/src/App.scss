@@ -1,0 +1,55 @@
+html, body {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+  }
+  
+  // Center titles
+  #big-title, #subtitle {
+    text-align: center;
+  }
+  
+  // Big-Title 
+  #big-title {
+    height: 20vh;
+  }
+  
+  // Left & Middle & Right Container
+  #container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: 65vh;
+    // Left Part
+    #left-side {
+      width: calc(100% / 3);
+      textarea {
+        border: 3px solid #cccccc;
+        width: 90%;
+        height: 60%;
+        margin-top: 1.5rem;
+        resize: none;
+      }
+    }
+  
+    // Middle Part
+    #middle-side {
+      width: calc(100%/3);
+      text-align: center;
+      position: relative;
+      strong {
+        font-size: 4em;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-40%);
+      }
+    }
+  
+    // Right Part
+    #right-side {
+      width: calc(100% / 3);
+      
+    }
+  }
+  
+  
