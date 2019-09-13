@@ -37,7 +37,7 @@ class App extends Component {
         <h1 id="big-title"><img src={logo} alt="logo with text"></img></h1>
         <div id="container">
           <div id="left-side">
-            <h1 id="subtitle">Write here</h1>
+            <h1 id="big-titles">Write here</h1>
             <hr></hr>
             <textarea
             onChange={this.handleChange}
@@ -48,7 +48,7 @@ class App extends Component {
             <strong><FaAngleRight /></strong>
           </div>
           <div id="right-side">
-            <h1 id="subtitle">Result</h1>
+            <h1 id="big-titles">Result</h1>
             <hr></hr>
               <div dangerouslySetInnerHTML={this.renderText(this.state.text)} />        
           </div>

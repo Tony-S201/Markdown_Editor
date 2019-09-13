@@ -2,6 +2,7 @@
   "name": "markdown-editor",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "dompurify": "^2.0.0",
     "marked": "^0.7.0",

@@ -4,14 +4,14 @@ html, body {
     margin: 0;
   }
   
-  // Center titles
-  #big-title, #subtitle {
-    text-align: center;
-  }
-  
-  // Big-Title 
+  // Big-Title & center items
   #big-title {
+    text-align: center;
     height: 20vh;
+  }
+
+  #big-titles {
+    text-align: center;
   }
   
   // Left & Middle & Right Container
